@@ -23,7 +23,7 @@ body {
     background-color: var(--almost-white);
 }
 
-bory.escurecer::before{
+body.escurecer::before{
     top: 0;
     left: 0;
     content: "";
@@ -56,6 +56,7 @@ bory.escurecer::before{
     height: 100vh;
     width: 16rem;
     z-index: 999;
+    
 
     display: flex;
     flex-direction: column;
@@ -106,6 +107,8 @@ bory.escurecer::before{
     padding: 0.75rem 2rem;
     background-color: var(--vermillion);
     border: none;
+    text-transform: uppercase;
+    color: var(--almost-white);
     font-weight: 700;
     font-size: 0.875rem;
     letter-spacing: 0.275rem;
